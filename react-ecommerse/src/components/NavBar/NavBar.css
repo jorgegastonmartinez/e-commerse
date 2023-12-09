@@ -1,0 +1,25 @@
+.NavBar {
+    font-family: "Yantramanav", sans-serif;
+    font-size: 1.2rem;
+    font-weight: 550;
+    line-height: 23px;
+    background-color: rgba(233, 233, 226, 0.62);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 5rem 0 0;
+
+    ul {
+        display: flex;
+        list-style-type: none;
+        justify-content: space-between;
+        gap: 1.2rem;
+        flex-wrap: wrap;
+            
+        li a {
+            text-decoration: none;
+            color: rgb(37, 58, 47);
+        }
+    }
+}

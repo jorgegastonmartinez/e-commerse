@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+img {
+    max-width: 100%;
+    width: 100%;
+}
+
+.Header {
+    width: 100%;
+    background-color: rgb(22, 38, 26);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem 1rem 2rem;
+    flex-wrap: wrap;
+}
+.Header-top-left {
+    display: flex;
+    gap: 1rem;
+    font-size: 2rem;
+    img {
+        width: 3rem;
+    }
+}
+.Header-top-right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    align-items: center;
+    a {
+        text-decoration: none;
+    }
+    img {
+        width: 2rem;
+    }
+}
+.Linkedin {
+    font-size: 1rem; 
+    color: #0a66c2;
+    background-color: #0a66c2;
+    img {
+        color: #0a66c2;
+        
+    }
+}
