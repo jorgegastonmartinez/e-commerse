@@ -17,27 +17,19 @@ const NavBar = () => {
                 </a>
             </Link>
             <ul className="ul">
-                <Link className="li" to="/">
-                    <a href="">INICIO</a>
-                </Link>
-                <Link className="li" to="/menu">
-                    <a href="">MENU</a>
-                </Link>
-                <Link className="li" to="/subscribe">
-                    <a href="">SUSCRIBITE</a>
-                </Link>
-                <Link className="li" to="/contact">
-                    <a href="">CONTACTO</a>
-                </Link>
-                <Link className="li">
-                    <a href="">TIENDA</a>
-                </Link>
-                <Link className="li" to="/login">
-                    <a href="">INGRESAR</a>
-                </Link>
-                <Link className="li" to="register">
-                    <a href="">REGISTRARSE</a>
-                </Link>
+                <Link className="li" to="/">INICIO</Link>
+                <Link className="li" to="/menu">MENU</Link>
+                <Link className="li" to="/subscribe">SUSCRIBITE</Link>
+                <Link className="li" to="/contact">CONTACTO</Link>
+                <Link className="li">TIENDA</Link>
+                <Link className="li" to="/login">INGRESAR</Link>
+                <Link className="li" to="register">REGISTRARSE</Link>
+                <Link className="li" to="/category/almuerzoYCena">ALMUERZO Y CENA</Link>
+                <Link className="li" to="/category/desayunoYMerienda">DESAYUNO Y MERIENDA</Link>
+                <Link className="li" to="/category/cafeteria">CAFETERÍA</Link>
+                <Link className="li" to="/category/churreria">CHURRERÍA</Link>
+
+
                 <Link className="li">
                     <CartWidget />
                 </Link>

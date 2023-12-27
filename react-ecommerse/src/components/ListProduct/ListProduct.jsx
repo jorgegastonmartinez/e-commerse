@@ -26,7 +26,7 @@ const ListProduct = () => {
         { productos.map((producto) => {
             return (
                 <div key={producto.id}>
-                   <Link to={`/detail/${producto.id}`}>
+                   <Link to={`/detail/${producto.id}`} style={{textDecoration: "none" }}>
                    <CardProduct producto={producto} />
                    </Link>                   
                 </div>

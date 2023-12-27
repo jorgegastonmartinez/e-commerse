@@ -7,7 +7,6 @@ import "./App.css";
 // Importacion de components
 import Header from "./components/Header/Header";
 import NavBar from "./components/NavBar/Navbar";
-import ItemListContainer from "./components/IemListContainer/ItemListContainer";
 
 // React router dom
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
@@ -21,15 +20,15 @@ import RegisterPage from "./pages/RegisterPage/RegisterPage";
 import SubscribePage from "./pages/SubscribePage/SubscribePage";
 import ErrorPage from "./pages/ErrorPage/ErrorPage";
 import DetailPage from "./pages/DetailPage/DetailPage";
+import CategoryPage from "./pages/CategoryPage/CategoryPage";
 
 class App extends React.Component {
     render() {
         return (
             <Router>
-            <div className="App">            
+            <div className="App">           
                 <Header />
                 <NavBar />
-                <ItemListContainer />
                 <Routes>
                     <Route path="/" element={<HomePage />} />
                     <Route path="/menu" element={<MenuPage />} />
@@ -38,7 +37,8 @@ class App extends React.Component {
                     <Route path="/login" element={<LoginPage />} />
                     <Route path="/register" element={<RegisterPage />} />
                     <Route path="*" element={<ErrorPage />} />
-                    <Route path="/detail/:id" element={<DetailPage />} />                  
+                    <Route path="/detail/:id" element={<DetailPage />} />    
+                    <Route path="/category/:categoryId" element={<CategoryPage />} />       
                 </Routes>             
             </div>
             </Router>
