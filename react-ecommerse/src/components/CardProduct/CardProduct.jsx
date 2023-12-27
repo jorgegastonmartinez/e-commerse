@@ -1,30 +1,30 @@
-import "./ProductCard.css"
-
+import "./CardProduct.css";
 import Card from '@mui/material/Card';
 import CardContent from '@mui/material/CardContent';
 import CardMedia from '@mui/material/CardMedia';
 import Typography from '@mui/material/Typography';
 import { Button, CardActionArea, CardActions } from '@mui/material';
 
-const ProductCard = (props) => {
+const CardProduct = ({ producto }) => {
+    const { id, productImg, productTitle, productDescription, productPrice } = producto;
     return (
         <Card sx={{ maxWidth: 400 }}>
             <CardActionArea>
                 <CardMedia
                 component="img"
                 height="hidden"
-                image={props.img}
+                image={productImg}
                 alt="comida"
                 />
                 <CardContent>
                     <Typography gutterBottom variant="h5" component="div">
-                    {props.productTitle}
+                    {productTitle}
                     </Typography>
                     <Typography variant="body1" color="text.secondary">
-                    {props.productDescription}
+                    {productDescription}
                     </Typography>
                     <Typography variant="h5" color="text.secondary" sx={{ marginTop: 3 }}>
-                    {props.productPrice}
+                    {productPrice}
                     </Typography>
                 </CardContent>
             </CardActionArea>
@@ -37,4 +37,4 @@ const ProductCard = (props) => {
     );
 }
 
-export default ProductCard;
+export default CardProduct;

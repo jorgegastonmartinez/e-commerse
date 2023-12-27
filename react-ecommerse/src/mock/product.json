@@ -1,0 +1,121 @@
+[
+    {
+        "id": "1",
+        "productImg": "../assets/bocata-de-atun.jpg",
+        "productTitle": "TORTILLA DE PAPAS",
+        "productDescription": "Papa, cebolla, morron colorado, huevos, perejil, ajo y aceite de oliva",
+        "productPrice": "$3.700"
+    },
+    {
+        "id": "2",
+        "productImg": "../assets/bocata-de-atun.jpg",
+        "productTitle": "BOCATA DE ATÚN",
+        "productDescription": "baguette, atún, rúcula, pepinillos agridulces, pesto y tomate natural",
+        "productPrice": "$4.600"
+    },
+    {
+        "id": "3",
+        "productImg": "../assets/bocata-de-pollo.jpg",
+        "productTitle": "BOCATA DE POLLO",
+        "productDescription": "baguette, pollo asado,rúcula, queso con hierbas y tomates secos",
+        "productPrice": "$4.000"
+    },
+    {
+        "id": "4",
+        "productImg": "../assets/bocata-de-tortilla.jpg",
+        "productTitle": "BOCATA DE TORTILLA",
+        "productDescription": "baguette, tortilla de papas, alioli y tomates secos",
+        "productPrice": "$4.000"
+    },
+    {
+        "id": "5",
+        "productImg": "../assets/bocata-jamon-crudo.jpg",
+        "productTitle": "BOCATA DE JAMÓN CRUDO",
+        "productDescription": "baguette, jamón crudo, queso, rúcula, pesto y tomates secos",
+        "productPrice": "$5.000"
+    },
+    {
+        "id": "6",
+        "productImg": "../assets/bocata-vegeta.jpg",
+        "productTitle": "BOCATA VEGETA",
+        "productDescription": "baguette, berenjena, zucchini, queso, rúcula y pesto",
+        "productPrice": "$3.000"
+    },
+    {
+        "id": "7",
+        "productImg": "../assets/cafe-con-leche-y-medialunas.jpg",
+        "productTitle": "CAFÉ CON LECHE Y MEDIALUNAS",
+        "productDescription": "café latte y 2 medialunas de manteca",
+        "productPrice": "$1.800"
+    },
+    {
+        "id": "8",
+        "productImg": "../assets/cappuccino.jpg",
+        "productTitle": "CAPPUCCINO",
+        "productDescription": "café espresso, leche texturizada, cacao y canela",
+        "productPrice": "$1.500"
+    },
+    {
+        "id": "9",
+        "productImg": "../assets/combo-churros-choco.jpg",
+        "productTitle": "CHURROS CON CHOCOLATE",
+        "productDescription": "3 churros y chocolate San Ginés",
+        "productPrice": "$2.000"
+    },
+    {
+        "id": "10",
+        "productImg": "../assets/combo-mix.jpg",
+        "productTitle": "COMBO MIX",
+        "productDescription": "2 churros, 1 porra y chocolate San Ginés",
+        "productPrice": "$2.000"
+    },
+    {
+        "id": "11",
+        "productImg": "../assets/desayuno-argentino.jpg",
+        "productTitle": "DESAYUNO ARGENTINO",
+        "productDescription": "café latte, tostadas de pan, dulce de leche y manteca",
+        "productPrice": "$3.000"
+    },
+    {
+        "id": "12",
+        "productImg": "../assets/ensalada-de-atun.jpg",
+        "productTitle": "ENSALADA DE ATÚN",
+        "productDescription": "mix de hojas verdes, vinagreta, atún, tomate, huevo, pepinillos agridulces y aceitunas",
+        "productPrice": "$4.600"
+    },
+    {
+        "id": "13",
+        "productImg": "../assets/ensalada-de-pollo.jpg",
+        "productTitle": "ENSALADA DE POLLO",
+        "productDescription": "mix de hojas verdes, vinagreta, pollo asado, tomate, huevo, pickle de cebolla morada y alioli",
+        "productPrice": "$4.500"
+    },
+    {
+        "id": "14",
+        "productImg": "../assets/ensalada-vegeta.jpg",
+        "productTitle": "ENSALADA VEGETA",
+        "productDescription": "mix de hojas verdes, vinagreta, berenjena, zucchini, tomate, huevo y grabanzos crocantes",
+        "productPrice": "$3.000"
+    },
+    {
+        "id": "15",
+        "productImg": "../assets/latte.jpg",
+        "productTitle": "LATTE",
+        "productDescription": "café espresso y leche texturizada",
+        "productPrice": "$1.400"
+    },
+    {
+        "id": "16",
+        "productImg": "../assets/medialuna.jpg",
+        "productTitle": "MEDIALUNAS",
+        "productDescription": "2 medialunas de manteca",
+        "productPrice": "$900"
+    },
+    {
+        "id": "17",
+        "productImg": "../assets/tostadas-con-queso-mermelada.jpg",
+        "productTitle": "TOSTADAS CON QUESO Y MERMELADA",
+        "productDescription": "tostadas de baguette integral, queso crema y mermelada",
+        "productPrice": "$2.000"
+    }
+]
