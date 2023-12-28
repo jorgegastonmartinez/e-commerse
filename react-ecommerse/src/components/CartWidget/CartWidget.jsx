@@ -4,7 +4,7 @@ import "./CartWidget.css";
 const CartWidget = () => {
   return (
     <div className="CartIcon">
-                <ShoppingCartOutlinedIcon />
+                <ShoppingCartOutlinedIcon sx={{ fontSize: 40 }} />
                 <p>14</p>
             </div>
   )

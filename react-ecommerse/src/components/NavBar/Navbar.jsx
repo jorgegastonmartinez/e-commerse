@@ -28,8 +28,6 @@ const NavBar = () => {
                 <Link className="li" to="/category/desayunoYMerienda">DESAYUNO Y MERIENDA</Link>
                 <Link className="li" to="/category/cafeteria">CAFETERÍA</Link>
                 <Link className="li" to="/category/churreria">CHURRERÍA</Link>
-
-
                 <Link className="li">
                     <CartWidget />
                 </Link>

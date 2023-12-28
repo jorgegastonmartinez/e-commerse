@@ -29,7 +29,7 @@ const CardProduct = ({ producto }) => {
                 </CardContent>
             </CardActionArea>
             <CardActions>
-                <Button variant="contained" size="small" color="secondary">
+                <Button variant="contained" size="small" sx={{ backgroundColor: '#253A2F' }}>
                 Añadir al carrito
                 </Button>
             </CardActions>

@@ -5,9 +5,10 @@ import eu from "../../assets/estadosUnidosFlag.jpg";
 import japon from "../../assets/japonFlag.jpg";
 import mex from "../../assets/mexicoFlag.jpg";
 import esp from "../../assets/spainFlag.jpg";
-import facebook from "../../assets/facebook.png";
-import instagram from "../../assets/instagramicon.png";
-import liknkedin from "../../assets/linkedin-social-media.jpg";
+import FacebookIcon from '@mui/icons-material/Facebook';
+import InstagramIcon from '@mui/icons-material/Instagram';
+import LinkedInIcon from '@mui/icons-material/LinkedIn';
+
 
 const Header = () => {
   return (
@@ -23,18 +24,18 @@ const Header = () => {
             <a href="" target="_blank" rel="noopener noreferrer">
                 <img src="" alt="" />
             </a>
-            <a href="https://www.instagram.com/sanginesargentina/" target="_blank">
-                <img src={instagram} alt="logo instagram" />
+            <a className="InstagramIcon" href="https://www.instagram.com/sanginesargentina/" target="_blank">
+                <InstagramIcon sx={{ fontSize: 40, color: '#e4405f' }} />
             </a>
             <a href="https://www.facebook.com/SanGinesArgentina?_rdc=1&_rdr" target="_blank">
-                <img src={facebook} alt="logo facebook" />
+                <FacebookIcon  sx={{ fontSize: 45, color: '#3b5998' }} />
             </a>
-            <a className="Linkedin" href="https://www.linkedin.com/company/chocolater%C3%ADa-san-gin%C3%A9s-argentina?trk=similar-pages" target="_blank" rel="noopener noreferrer">
-                <img src={liknkedin} alt="" />
-            </a>
+            <a className="LinkedinIcon" href="https://www.linkedin.com/company/chocolater%C3%ADa-san-gin%C3%A9s-argentina?trk=similar-pages" target="_blank" rel="noopener noreferrer">
+            <LinkedInIcon  sx={{ fontSize: 45, color: '#0077b5' }} />
+            </a>          
         </div>       
     </div>
   )
 };
 
-export default Header
+export default Header;
